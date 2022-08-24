@@ -1,0 +1,172 @@
+*{
+    background-color: #333333;
+    color: white;
+    font-family: Playfair;
+}
+
+@font-face {
+    font-family: Playfair;
+    src: 'assets/fonts/PlayfairDisplay-Regular.ttf';
+}
+
+.rowAtas{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.divLogo > img{
+    height: 118px;
+    width: 110px;
+    margin: 0;
+}
+
+.divCS > .boxCS{
+    margin-top: 30px;
+    margin-left: 120px;
+    text-align: start;
+}
+
+.nocs{
+    width: 10;
+}
+
+.iconCS{
+    margin-bottom: 24px;
+    display:inline-block;
+    font-size: 25px;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: end;
+    vertical-align: bottom;
+}
+
+.navKiri{
+    width: 120px;
+    /* height: 60%; */
+    position: fixed;
+    left: 0;
+    top: 16%;
+}
+
+.boxNavKiri{
+    padding: 50px;
+}
+
+/* .boxNavKiri > .row{
+    height: 100px;
+    width: 300px;
+} */
+
+.tombol > p{
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+    text-align: center;
+    transform: rotate(-90deg);
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.aktif > p{
+    cursor: pointer;
+    transition: 0.8s ease-in-out;
+    text-align: center;
+    transform: rotate(-90deg);
+    font-size: 26px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #CD949C;
+    border-radius: 16px;
+}
+
+.navKanan{
+    width: 120px;
+    /* height: 50%; */
+    position: fixed;
+    right: 0;
+    top: 25%;
+}
+
+.boxNavKanan{
+    padding: 50px;
+}
+
+.tombol-bulet{
+    margin-bottom: 24px;
+    display:inline-block;
+    font-size: 25px;
+    line-height: 40px;
+    background-color:white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: bottom;
+    border-radius: 100px;
+}
+
+.tombol-bulet > i{
+    background-color: white;
+    color: black;
+}
+
+.rowHome1{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.rowHome1{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.divtag1 {
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.divtag1 > .q1{
+    font-size: 64px;
+}
+
+.divtag1 > .q2{
+    font-size: 48px;
+}
+
+.divFot1 > img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.rowHome2{
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.divtag2 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.divtag2 > .q1{
+    font-size: 48px;
+}
+
+.divtag2 > .q2{
+    font-size: 32px;
+}
+
+.divFot2 > img{
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
