@@ -21,13 +21,13 @@
             <div class="col divCS">
                 <div class="boxCS">
                     <div class="row">
-                        <div class="col iconCS">
+                        <div class="col-7 iconCS">
                             <i class="fa-solid fa-headset"></i>
                         </div>
-                        <div class="col nocs">
+                        <div class="col-5 nocs">
                             <span>Customer Service</span>
                             <br>
-                            <span>082269435558</span>
+                            <span class="no">082269435558</span>
                         </div>
                     </div>
                 </div>
@@ -38,13 +38,13 @@
                <span class="q1">Build Our Dream</span>
                <span class="q2">With Rumah Rasya</span>    
             </div>    
-            <div class="col divFot1">
-                <img src="assets/foto/salon.jpg" alt="Interior Design">
+            <div class="col-6 divFot1">
+                <img src="assets/foto/rum.jpg" class="img-fluid" alt="Interior Design">
             </div>
         </div>
         <div class="row rowHome2">
-            <div class="col divFot2">
-                <img src="assets/foto/salon.jpg" alt="Interior Design">
+            <div class="col-6 divFot2">
+                <img src="assets/foto/salon.jpg" class="img-fluid" alt="Interior Design">
             </div>
             <div class="col divtag2">
                <span class="q1">Home Interior Design</span>

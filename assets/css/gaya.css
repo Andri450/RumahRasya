@@ -1,3 +1,9 @@
+/* *{
+    background-color: white;
+    color: #333333;;
+    font-family: Playfair;
+} */
+
 *{
     background-color: #333333;
     color: white;
@@ -17,17 +23,22 @@
 .divLogo > img{
     height: 118px;
     width: 110px;
+    border-bottom-right-radius: 20px;
     margin: 0;
 }
 
 .divCS > .boxCS{
     margin-top: 30px;
     margin-left: 120px;
-    text-align: start;
+    text-align: end;
 }
 
 .nocs{
-    width: 10;
+    width: 20;
+}
+
+.nocs > .no{
+    text-align: center;
 }
 
 .iconCS{
@@ -79,6 +90,7 @@
     padding-left: 16px;
     padding-right: 16px;
     background-color: #CD949C;
+    color: white;
     border-radius: 16px;
 }
 
@@ -123,8 +135,8 @@
 }
 
 .divtag1 {
-    margin-top: 60px;
-    margin-left: 60px;
+    margin-top: 80px;
+    margin-left: 40px;
 }
 
 .divtag1 > .q1{
@@ -136,8 +148,8 @@
 }
 
 .divFot1 > img{
-    width: 400px;
-    height: 300px;
+    /* width: 400px;
+    height: 300px; */
     object-fit: cover;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -149,8 +161,8 @@
 }
 
 .divtag2 {
-    margin-top: 30px;
-    margin-left: 60px;
+    margin-top: 110px;
+    margin-left: 40px;
 }
 
 .divtag2 > .q1{
@@ -158,14 +170,14 @@
 }
 
 .divtag2 > .q2{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .divFot2 > img{
     margin-top: 10px;
-    margin-left: 80px;
-    width: 400px;
-    height: 300px;
+    /* margin-left: 80px; */
+    /* width: 400px;
+    height: 300px; */
     object-fit: cover;
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
